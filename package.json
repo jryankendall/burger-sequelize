@@ -1,0 +1,26 @@
+{
+  "name": "eataburger",
+  "version": "1.0.0",
+  "description": "Heroku app implementing MySQL, Node, Express, Handlebars, and a custom-built ORM to demonstrate database handling with burgers as examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jryankendall/eataburger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jryankendall/eataburger/issues"
+  },
+  "homepage": "https://github.com/jryankendall/eataburger#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "multer": "^1.4.1",
+    "mysql": "^2.17.1"
+  }
+}

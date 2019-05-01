@@ -1,0 +1,27 @@
+body {
+    background-color: #dddddd;
+}
+
+.full-grid {
+    background-color: #efefef;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.burger-item {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.burger-p {
+    font-weight: bold;
+}
+
+#burgers-not-devoured, #burgers-is-devoured {
+    background-color: #ffffff;
+    min-height: 300px;
+    border: solid black 1px;
+}
